@@ -24,8 +24,8 @@ Connection con=ConnectionManager.getConnection();
 	st.setString(3,coach);
 	st.setInt(4,city);
 	st.setInt(5,captain);
-		st.executeUpdate();
-		con.close();
-		System.out.println("Team has been created");
+	st.executeUpdate();
+	con.close();
+	System.out.println("Team has been created");
     }
 }
